@@ -3,11 +3,13 @@
 import 'package:fuodz/services/auth.service.dart';
 
 class Api {
-  static String get baseUrl {
-    return "https://fuodz.edentech.online/api";
+   static String get baseUrl {
+    return "https://xuo.hsk.mybluehost.me/api";
+
+  //  return "https://fuodz.edentech.online/api";
+    
     // return "http://192.168.100.3:8000/api";
   }
-
   static const appSettings = "/app/settings";
   static const appOnboardings = "/app/onboarding?type=customer";
   static const faqs = "/app/faqs?type=customer";

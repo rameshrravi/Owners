@@ -27,7 +27,8 @@ dependencies:
   banner_carousel: ^1.2.1
   basic_utils: ^3.9.0
   cached_network_image: ^3.3.1
-  carousel_slider: ^4.1.1
+  #carousel_slider: ^4.2.1
+  carousel_slider: ^5.0.0
   chewie: ^1.5.0
   cloud_firestore: ^4.14.0
   contained_tab_bar_view: ^0.8.0
@@ -137,9 +138,9 @@ dependencies:
 dependency_overrides:
   intl: ^0.18.1
   http: ^0.13.0
-  win32: ^5.0.0
+  win32: ^5.5.4
   flutter_widget_from_html: ^0.10.1
-  webview_flutter_android: 3.16.1
+  webview_flutter_android: 3.16.7
 
 dev_dependencies:
   flutter_application_id: ^2.0.0-dev
